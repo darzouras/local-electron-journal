@@ -1,0 +1,15 @@
+{
+    "name": "dzouras_blogtest",
+    "version": "1.0.0",
+    "description": "A practice app! Local journal.",
+    "main": "main.js",
+    "author": "Darlene Zouras",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.13.2",
+        "mysql": "^2.8.0",
+        "electron": "^1.4.10",
+        "body-parser": "^1.13.3",
+        "express-handlebars": "^2.0.1"
+    }
+}
