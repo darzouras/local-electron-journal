@@ -10,10 +10,22 @@
 <body>
     <div class="window">
         <div class="window-content">
-            <div class="padded-more">
-                <h1>Notes for app:</h1>
-                <ul>
-                    <li>
+            <div class="pane-group">
+                <!-- SIDEBAR -->
+                <div class="pane-mini sidebar">
+                  <div class="padded-more">
+                    <span class="icon icon-keyboard" id="write"></span> Write<br />
+                    <span class="icon icon-book-open" id="read"></span> Read<br />
+                    <span class="icon icon-share" id="share"></span> Share<br />
+                    <span class="icon icon-vcard" id="profile"></span> User<br />
+                    <span class="icon icon-cog" id="settings"></span> Settings<br />
+                  </div>
+                </div>
+
+              <!-- MAIN PANE -->
+                <div class="padded-more">
+                  {{{body}}}
+                </div>
             </div>
         </div>
         <footer class="toolbar toolbar-footer">
