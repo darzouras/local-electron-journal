@@ -663,7 +663,11 @@ textarea {
 }
 
 .pane-mini {
+<<<<<<< HEAD
   width: 80px;
+=======
+  width: 100px;
+>>>>>>> da33b6e8f27d94ed7ec0398c0df9f97f1c8834a7
   flex: none;
 }
 
